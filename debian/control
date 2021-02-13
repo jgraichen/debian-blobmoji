@@ -1,0 +1,16 @@
+Source: fonts-blobmoji
+Section: fonts
+Priority: optional
+Maintainer: Jan Graichen <jgraichen@altimos.de>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/C1710/blobmoji
+Vcs-Browser: https://github.com/jgraichen/debian-blobmoji
+Vcs-Git: https://github.com/jgraichen/debian-blobmoji.git
+Rules-Requires-Root: no
+
+Package: fonts-blobmoji
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Blobmoji Emoji Font

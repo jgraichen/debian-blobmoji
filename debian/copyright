@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fonts-blobmoji
+Source: <https://github.com/C1710/blobmoji>
+
+Files: *
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2021 Jan Graichen <jgraichen@altimos.de>
+License: MIT
