@@ -1,2 +1,2 @@
 Blobmoji.ttf usr/share/fonts/truetype/blobmoji
-debian/conf.d/90-blobmoji.conf etc/fonts/conf.d/
+debian/conf.avail/90-blobmoji.conf usr/share/fontconfig/conf.avail/

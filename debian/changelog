@@ -1,3 +1,9 @@
+fonts-blobmoji (13.1~pre2) unstable; urgency=medium
+
+  * Tune font config and install system-wide
+
+ -- Jan Graichen <jgraichen@altimos.de>  Sat, 13 Feb 2021 18:38:13 +0100
+
 fonts-blobmoji (13.1~pre1) unstable; urgency=medium
 
   * Initial Release.
