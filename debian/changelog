@@ -1,3 +1,9 @@
+fonts-blobmoji (14.0~pre1) unstable; urgency=medium
+
+  * Update blobmoji to v14.0
+
+ -- Jan Graichen <jgraichen@altimos.de>  Sat, 17 Jul 2021 11:04:53 +0200
+
 fonts-blobmoji (13.1~pre3) unstable; urgency=medium
 
   * Revert font config changes. The new changes affected default font
