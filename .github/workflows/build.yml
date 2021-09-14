@@ -1,0 +1,35 @@
+---
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: debian
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get --yes install debhelper
+
+    - name: Build
+      working-directory: debian
+      run: |
+        dpkg-buildpackage --no-sign
+
+    - name: Test
+      run: |
+        sudo apt-get --yes install ./fonts-blobmoji*.deb
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: fonts-blobmoji-deb
+        path: fonts-blobmoji*.deb
