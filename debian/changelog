@@ -1,3 +1,9 @@
+fonts-blobmoji (14.0.1) unstable; urgency=medium
+
+  * Update blobmoji to v14.0.1
+
+ -- Christian Nicolai <cn@mycrobase.de>  Wed, 15 Sep 2021 13:53:35 +0200
+
 fonts-blobmoji (14.0~pre1) unstable; urgency=medium
 
   * Update blobmoji to v14.0
