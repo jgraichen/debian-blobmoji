@@ -1,8 +1,8 @@
-fonts-blobmoji (15) UNRELEASED; urgency=medium
+fonts-blobmoji (15) unstable; urgency=medium
 
   * Update blobmoji to v15
 
- -- Jan Graichen <jgraichen@altimos.de>  Mon, 31 Oct 2022 09:30:49 +0100
+ -- Jan Graichen <jgraichen@altimos.de>  Mon, 31 Oct 2022 09:34:42 +0100
 
 fonts-blobmoji (14.0.1) unstable; urgency=medium
 
